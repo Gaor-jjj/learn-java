@@ -1,16 +1,13 @@
-package week1;
-
+package Excercises;
 import java.util.Scanner;
 
-public class Excercise14 {
+public class Excercise8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Type a number: ");
         int num = Integer.parseInt(sc.nextLine());
-        if (num > 0) {
-            System.out.println("The number is positive");
-        } else {
-            System.out.println("The number is negative");
-        }
+        System.out.println("Type another number: ");
+        int num2 = Integer.parseInt(sc.nextLine());
+        System.out.println("Sum of the numbers: " + (num + num2));
     }
 }
